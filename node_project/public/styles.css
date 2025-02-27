@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.selector-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.shape-selector, .color-selector {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#selected-shape {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    margin: 40px auto;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.square {
+    background-color: #fff;
+}
+
+.trapezoid {
+	border-bottom: 50px solid #fff;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 125px;
+}
+
+.oval {
+  height: 50px;
+  width: 100px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.rectangle {
+  height: 50px;
+  width: 100px;
+  background-color: #fff;
+}

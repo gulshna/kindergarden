@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape and Color Selector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Shape and Color Selector</h1>
+    <div class="selector-container">
+        <div class="shape-selector">
+            <h2>Select Shape:</h2>
+            <select id="shape-select">
+                <option value="circle">Circle</option>
+                <option value="square">Square</option>
+                <option value="trapezoid">Trapezoid</option>
+                <option value="oval">Oval</option>
+                <option value="rectangle">rectangle</option>
+            </select>
+        </div>
+        <div class="color-selector">
+            <h2>Select Color:</h2>
+            <select id="color-select">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="yellow">Yellow</option>
+                <option value="purple">Purple</option>
+            </select>
+        </div>
+    </div>
+    <div class="shape-container">
+        <div id="selected-shape"></div>
+    </div>
+
+    <script src="shapes.js"></script>
+</body>
+</html>
