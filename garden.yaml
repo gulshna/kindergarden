@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shape-color-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: shape-color-app
+  template:
+    metadata:
+      labels:
+        app: shape-color-app
+    spec:
+      containers:
+      - name: shape-color-app
+        image: gul7an/kindergarden:1.1
+        ports:
+        - containerPort: 3000
